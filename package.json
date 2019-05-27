@@ -19,7 +19,11 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.11",
+    "ethereum-ens": "^0.7.7"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
